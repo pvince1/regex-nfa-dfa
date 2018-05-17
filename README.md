@@ -4,10 +4,9 @@ Converts regular expression to nfa to dfa and test if input strings exist in reg
 Files:
 README.md
 pa3.py
-tests/ #example input files for testing and format
-  reIn1.txt
-  reIn5.txt
-  reIn10.txt
+reIn1.txt #example input files for testing and format
+reIn5.txt
+reIn10.txt
  
 Python script pa3.py takes in an input file containing:
 -alphabet of regular language
@@ -19,13 +18,13 @@ Classes:
   attributes: acceptState, used, stateSet, transitions
 -RegexToDFA: main class converts regex to nfa to dfa and test strings
   methods:
-    # __init__()
-    # convert()
-    # regexToNFA()
-    # combineEndStates()
-    # setStateSets()
-    # combineEpsilonStates()
-    # NFAtoDFA()
+    - __init__()
+    - convert()
+    - regexToNFA()
+    - combineEndStates()
+    - setStateSets()
+    - combineEpsilonStates()
+    - NFAtoDFA()
     
 
 
